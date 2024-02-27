@@ -1,3 +1,12 @@
 jowici7655@oprevolt.com
 
 @Ciscopacket1
+
+
+
+ Hey yall, I Just got Packet Tracer working on Kali. Its necessary to download and install the missing dependencies. libgl1-mesa-glx has it's own dependecies as well. download all 3 and use sudo dpkg -i to install each of the .deb files.
+sudo wget http://ftp.de.debian.org/debian/pool/main/m/mesa/libgl1-mesa-glx_20.3.5-1_amd64.deb
+
+sudo wget http://ftp.de.debian.org/debian/pool/main/libx/libxcb/libxcb-xinerama0_1.15-1_amd64.deb
+
+sudo wget http://ftp.de.debian.org/debian/pool/main/libx/libxcb/libxcb-xinerama0-dev_1.15-1_amd64.deb 
